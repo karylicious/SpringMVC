@@ -7,6 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>DemoMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
+  
+  <properties>
+		<jackson.version>2.9.9.2</jackson.version>
+	</properties>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -16,7 +22,7 @@
     </dependency>
     
     
-    <dependency>
+     <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>5.1.9.RELEASE</version>
@@ -40,13 +46,18 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
+        
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		
     
-    
-    
-    
+   
     
   </dependencies>
   <build>
-    <finalName>FinalMVC</finalName>
+    <finalName>DemoMVC</finalName>
   </build>
 </project>

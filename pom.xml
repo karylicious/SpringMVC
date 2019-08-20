@@ -2,15 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.demo</groupId>
-  <artifactId>FinalMVC</artifactId>
+  <artifactId>DemoMVC</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>FinalMVC Maven Webapp</name>
+  <name>DemoMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
   
   <properties>
-		<jackson.version>2.9.5</jackson.version>
+		<jackson.version>2.9.9.2</jackson.version>
 	</properties>
   
   <dependencies>
@@ -46,13 +46,7 @@
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-    
-    <dependency>
-    <groupId>com.fasterxml.jackson.core</groupId>
-    <artifactId>jackson-core</artifactId>
-    <version>${jackson.version}</version>
-</dependency>
-    
+        
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -64,6 +58,6 @@
     
   </dependencies>
   <build>
-    <finalName>FinalMVC</finalName>
+    <finalName>DemoMVC</finalName>
   </build>
 </project>
